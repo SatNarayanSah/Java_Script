@@ -10,11 +10,19 @@
 //  }
 
  //Write a programme to find given number is leap year or not.
- var t=2014; 
+ var t=2016; 
 if(t%4==0){ 
     if(t%100==0)
     {
-        console.log("The givn number "+ t + " is not leap year.....");
+        if(t%400==0)
+        {
+            console.log("The givn number "+ t + "   is  leap year.....");
+        }
+        else
+        {
+            console.log("The givn number "+ t + "is not leap year.....");
+        }
+        
     }
     else
     {
