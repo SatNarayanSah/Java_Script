@@ -9,27 +9,34 @@
 //     console.log("Given number is not prime.."); // if value is false
 //  }
 
- //Write a programme to find given number is leap year or not.
- var t=2016; 
-if(t%4==0){ 
-    if(t%100==0)
-    {
-        if(t%400==0)
-        {
-            console.log("The givn number "+ t + "   is  leap year.....");
-        }
-        else
-        {
-            console.log("The givn number "+ t + "is not leap year.....");
-        }
+ /* Write a programme to find given number is leap year or not. */
+//  var t=2016; 
+// if(t%4==0){ 
+//     if(t%100==0)
+//     {
+//         if(t%400==0)
+//         {
+//             console.log("The givn number "+ t + "   is  leap year.....");
+//         }
+//         else
+//         {
+//             console.log("The givn number "+ t + "is not leap year.....");
+//         }
         
-    }
-    else
-    {
-        console.log("The givn number "+ t + " is  leap year.....");
-    }
+//     }
+//     else
+//     {
+//         console.log("The givn number "+ t + " is  leap year.....");
+//     }
     
-}
-else{
-    console.log("The givn number "+ t + " is not leap year.....");
-}
+// }
+// else{
+//     console.log("The givn number "+ t + " is not leap year.....");
+// }
+
+
+
+/* Write a program to use ternar oprator*/
+
+ var age=18;
+ console.log((age>=18)? "You can drive" : "You can't drive.");
