@@ -35,6 +35,14 @@ The javascript statements that define the function, enclosed in curly brackets,{
 //     var funExp = sum(12,12);  
 //     funExp;   // this is function expression do the work.
 
+/* ...............Anonnymous Function .......................*/
+var funExp=function(a,b){
+    return total =a+b;
+    console.log(total);
+}
+funExp(12,12);
+console.log(funExp(15,10));
+
 //     /*  FUNCTION EXPRESSION  WITH RETURN KEYWORD */
 // function sum(a,b){  // In Function sum "a and b " is called paremeters
 //         return total = a+b;  // Using Return keyword
@@ -42,8 +50,9 @@ The javascript statements that define the function, enclosed in curly brackets,{
 //     var funExp = sum(12,12);  
 //     console.log("This is the sum of given two numbers:- " + funExp);   
 
-var n=1;
-for(n; n<=10;n++){
-    tableOf=3;
-    console.log(tableOf + " * "  + n + " = " + tableOf*n);
-}
+// var n=1;
+// for(n; n<=10;n++){
+//     tableOf=3;
+//     console.log(tableOf + " * "  + n + " = " + tableOf*n);
+// }
+
