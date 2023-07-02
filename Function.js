@@ -57,9 +57,9 @@ The javascript statements that define the function, enclosed in curly brackets,{
 // }
 
 
-// .............LET VS VAR........................
+// .............LET VS VAR VS SCOPE........................
 /*       VAR ==> Function scope
-        LET ==> Block Scope          */
+        LET AND CONST ==> Block Scope          */
 
 
 // This code will Run successfully
