@@ -62,14 +62,48 @@ The javascript statements that define the function, enclosed in curly brackets,{
         LET AND CONST ==> Block Scope          */
 
 
-// This code will Run successfully
-var myName="Satyam sah";
-console.log(myName);
-myName="Ekak World";
-console.log(myName)  
+/*  This code will Run successfully   */
+// var myName="Satyam sah";
+// console.log(myName);
+// myName="Ekak World";
+// console.log(myName)  
 
-// This code will Run Unsuccessfully
-const myName="Satyam sah";
-console.log(myName);
-myName="Ekak World";
-console.log(myName)  
+/*  This code will Run Unsuccessfully  */
+// const myName="Satyam sah";
+// console.log(myName);
+// myName="Ekak World";
+// console.log(myName)  
+
+
+/* This Programme run siccessfuly  */
+// function cv()
+// {
+//     var myFirstNamr="Satyam"
+//     console.log(myFirstNamr);
+
+//     if(true){
+//         var myLastName="Sah";
+//         console.log('inner'+ myLastName);
+//         console.log('inner'+ myFirstNamr);
+
+//     }
+//     console.log('outer'+ myFirstNamr);
+// }
+// cv();
+
+
+/* This programm has an error */
+function cv()
+{
+    let myFirstNamr="Satyam"
+    console.log(myFirstNamr);
+
+    if(true){
+        let myLastName="Sah";
+        console.log('inner'+ myLastName);
+        console.log('inner'+ myFirstNamr);  
+
+    }
+    console.log('outer'+ myLastName);  //myLastName is not defined  **ERROR***
+}
+cv();
