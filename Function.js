@@ -36,12 +36,12 @@ The javascript statements that define the function, enclosed in curly brackets,{
 //     funExp;   // this is function expression do the work.
 
 /* ...............Anonnymous Function .......................*/
-var funExp=function(a,b){
-    return total =a+b;
-    console.log(total);
-}
-funExp(12,12);
-console.log(funExp(15,10));
+// var funExp=function(a,b){
+//     return total =a+b;
+//     console.log(total);
+// }
+// funExp(12,12);
+// console.log(funExp(15,10));
 
 //     /*  FUNCTION EXPRESSION  WITH RETURN KEYWORD */
 // function sum(a,b){  // In Function sum "a and b " is called paremeters
@@ -60,3 +60,16 @@ console.log(funExp(15,10));
 // .............LET VS VAR........................
 /*       VAR ==> Function scope
         LET ==> Block Scope          */
+
+
+// This code will Run successfully
+var myName="Satyam sah";
+console.log(myName);
+myName="Ekak World";
+console.log(myName)  
+
+// This code will Run Unsuccessfully
+const myName="Satyam sah";
+console.log(myName);
+myName="Ekak World";
+console.log(myName)  
