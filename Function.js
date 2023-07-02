@@ -56,3 +56,7 @@ console.log(funExp(15,10));
 //     console.log(tableOf + " * "  + n + " = " + tableOf*n);
 // }
 
+
+// .............LET VS VAR........................
+/*       VAR ==> Function scope
+        LET ==> Block Scope          */
