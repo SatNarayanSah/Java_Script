@@ -110,10 +110,18 @@ The javascript statements that define the function, enclosed in curly brackets,{
 
 
 
-/* TABLE IN OTHR FORM */
-for(var num=1; num<=10;num++)
-{
+/* TEMPLATE LITERALS (TEMPLATE STRING) */
+// for(var num=1; num<=10;num++)
+// {
 
-let tableOf=19;
-console.log(` ${tableOf} * ${num} = ${tableOf*num}`);
+// let tableOf=19;
+// console.log(` ${tableOf} * ${num} = ${tableOf*num}`);
+// }
+
+
+
+/** DEFAULT ARGUMENTS */
+function mul(a,b){
+        return a*b;
 }
+console.log(mul(5,9));
