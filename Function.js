@@ -93,17 +93,27 @@ The javascript statements that define the function, enclosed in curly brackets,{
 
 
 /* This programm has an error */
-function cv()
+// function cv()
+// {
+//     let myFirstNamr="Satyam"
+//     console.log(myFirstNamr);
+
+//     if(true){
+//         let myLastName="Sah";
+//         console.log('inner'+ myLastName);
+//         console.log('inner'+ myFirstNamr);  
+
+//     }
+//     console.log('outer'+ myLastName);  //myLastName is not defined  **ERROR***
+// }
+// cv();
+
+
+
+/* TABLE IN OTHR FORM */
+for(var num=1; num<=10;num++)
 {
-    let myFirstNamr="Satyam"
-    console.log(myFirstNamr);
 
-    if(true){
-        let myLastName="Sah";
-        console.log('inner'+ myLastName);
-        console.log('inner'+ myFirstNamr);  
-
-    }
-    console.log('outer'+ myLastName);  //myLastName is not defined  **ERROR***
+let tableOf=19;
+console.log(` ${tableOf} * ${num} = ${tableOf*num}`);
 }
-cv();
