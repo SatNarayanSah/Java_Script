@@ -137,10 +137,11 @@ The javascript statements that define the function, enclosed in curly brackets,{
    
  //Converting it into fat Arror function
 
- const sum = () => {
-        let a=5; b=6;
-        let sum = a+b;
-        return `the sum of the two number is ${a*b}`;
-        return ` the sum of the two number is ${a=7}+${b=15}`;
- }
- console.log(sum());
+//  const sum = () => {
+//         let a=5; b=6;
+//         let sum = a+b;
+//         return `the sum of the two number is ${a*b}`;
+//         return ` the sum of the two number is ${a=7}+${b=15}`;
+/*    In one programe only one return can work other is terminated........*/
+//  }
+//  console.log(sum());
