@@ -128,10 +128,19 @@ The javascript statements that define the function, enclosed in curly brackets,{
  
  
  /** ..............................Fat Arror function................. */
- console.log(sum());
- function sum(){
+//  console.log(sum());
+//  function sum(){
+//         let a=5; b=6;
+//         let sum = a+b;
+//         return `the sum of the two number is ${sum}`;
+//  }
+   
+ //Converting it into fat Arror function
+
+ const sum = () => {
         let a=5; b=6;
         let sum = a+b;
-        return `the sum of the two number is ${sum}`;
+        return `the sum of the two number is ${a*b}`;
+        return ` the sum of the two number is ${a=7}+${b=15}`;
  }
-   
+ console.log(sum());
