@@ -121,7 +121,17 @@ The javascript statements that define the function, enclosed in curly brackets,{
 
 
 /** DEFAULT ARGUMENTS */
-function mul(a,b){
-        return a*b;
-}
-console.log(mul(5,9));
+// function mul(a,b){
+//         return a*b;
+// }
+// console.log(mul(5,9));
+ 
+ 
+ /** ..............................Fat Arror function................. */
+ console.log(sum());
+ function sum(){
+        let a=5; b=6;
+        let sum = a+b;
+        return `the sum of the two number is ${sum}`;
+ }
+   
