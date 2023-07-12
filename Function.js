@@ -145,3 +145,38 @@ The javascript statements that define the function, enclosed in curly brackets,{
 /*    In one programe only one return can work other is terminated........*/
 //  }
 //  console.log(sum());
+
+/** ..................Array in Java_Script............................. */
+
+
+/**Traversal in array ............... */
+
+// var faculty=[`Compute`,`Electrical`,`Electronics`,`Civil`,`Health Assistant`,`Pharmesya`,`Bsc.CSIT`];
+// console.log(faculty[1]); //To display perticule element in index of array
+// console.log(faculty.length);  // To check total element on index.
+// console.log(faculty[faculty.length-1]);  //To display last element of index in array.
+
+// Now we used For..in and For...of loops......
+// for(let element in faculty){      // For.....In Loop
+//         console.log(faculty[element]);
+// }
+
+// for(let data of faculty)// For....Of Loop
+// {
+//         console.log(data);
+// }+3
+
+
+
+var faculty=[`Compute`,`Electrical`,`Electronics`,`Civil`,`Health Assistant`,`Pharmesya`,`Bsc.CSIT`];
+for(let element in faculty){      // For.....In Loop
+        console.log(element[element])
+}
+
+console.log("*************")
+for (let index = 0; index < faculty.length; index++) {
+        const element = faculty[index];
+        console.log(element)
+        // console.log(index)
+        
+}
