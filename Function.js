@@ -187,6 +187,7 @@ The javascript statements that define the function, enclosed in curly brackets,{
 //  });
 
 
+/* ..............Searching and filtring in an array............................... */
 /** Puss method in java script................ */
 // const animal =[`goat`,`cow`,`ox`];
 // // animal.push(`Library`);
@@ -198,11 +199,24 @@ The javascript statements that define the function, enclosed in curly brackets,{
 /*  unshift method in java script.............. */
  // This method puss the value at the fiest index in array............
 
- const books=[1,0,6,20000000,2,56,4,10000,200000,4000]
-//  books.push(2,56);
- books.sort(function(a , b)
- {
-       return a - b
- }); // this return as string
+//  const books=[1,0,6,20000000,2,56,4,10000,200000,4000]
+// books.unshift(2,56);
+//  books.sort(function(a , b)
+//  {
+//        return a - b
+//  }); // this return as string
 //  books.reverse();
- console.log(books);
+//  console.log(books);
+
+/* ................Array_Prototype_PoP().............. */
+// const plants=[`brrocali`,`cauliflower`,`banana`,`tomato`,`potato`];
+// console.log(plants);
+// console.log(plants.pop()); //this will remove the laast element of array.
+// console.log(plants);
+
+
+/* ...........Array_Prototype_shift.............. */
+const plants=[`brrocali`,`cauliflower`,`banana`,`tomato`,`potato`];
+console.log(plants);
+console.log(plants.shift()); //this will remove the first element of array.
+console.log(plants);
