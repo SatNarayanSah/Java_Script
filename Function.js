@@ -216,7 +216,28 @@ The javascript statements that define the function, enclosed in curly brackets,{
 
 
 /* ...........Array_Prototype_shift.............. */
-const plants=[`brrocali`,`cauliflower`,`banana`,`tomato`,`potato`];
-console.log(plants);
-console.log(plants.shift()); //this will remove the first element of array.
-console.log(plants);
+// const plants=[`brrocali`,`cauliflower`,`banana`,`tomato`,`potato`];
+// console.log(plants);
+// console.log(plants.shift()); //this will remove the first element of array.
+// console.log(plants);
+
+
+
+/* Challenging task. 
+1. Add dec at the end of an array
+2. what is the return value of splice method
+3. update march to March (Update)
+4. Delete june fron array
+The Array is "const month=[`jan`,`march`,`April`,`june0,``]"
+*/
+
+const month=[`jan`,`march`,`April`,`June`,`July`];
+console.log(month);  
+month.push(`dec`);//Add dec at the end of an array
+console.log(month);
+
+
+month[1]="March";  //update march to March (Update)
+console.log(month);
+month.splice(3,1);  //Delete june fron array
+console.log(month);
