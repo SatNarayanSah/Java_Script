@@ -168,15 +168,41 @@ The javascript statements that define the function, enclosed in curly brackets,{
 
 
 
-var faculty=[`Compute`,`Electrical`,`Electronics`,`Civil`,`Health Assistant`,`Pharmesya`,`Bsc.CSIT`];
-for(let element in faculty){      // For.....In Loop
-        console.log(element[element])
-}
+// var faculty=[`Compute`,`Electrical`,`Electronics`,`Civil`,`Health Assistant`,`Pharmesya`,`Bsc.CSIT`];
+// for(let element in faculty){      // For.....In Loop
+//         console.log(element[element])
+// }
 
-console.log("*************")
-for (let index = 0; index < faculty.length; index++) {
-        const element = faculty[index];
-        console.log(element)
-        // console.log(index)
+// console.log("*************")
+// for (let index = 0; index < faculty.length; index++) {
+//         const element = faculty[index];
+//         console.log(element)
+//         // console.log(index)
         
-}
+// }
+
+//  faculty.forEach(function(element,index,array){
+//         // console.log(element);
+//         console.log(element + " index " + index );
+//  });
+
+
+/** Puss method in java script................ */
+// const animal =[`goat`,`cow`,`ox`];
+// // animal.push(`Library`);
+// animal[2]="dog"
+
+// console.log(animal);
+
+
+/*  unshift method in java script.............. */
+ // This method puss the value at the fiest index in array............
+
+ const books=[1,0,6,20000000,2,56,4,10000,200000,4000]
+//  books.push(2,56);
+ books.sort(function(a , b)
+ {
+       return a - b
+ }); // this return as string
+//  books.reverse();
+ console.log(books);
