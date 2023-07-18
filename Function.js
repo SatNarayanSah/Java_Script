@@ -233,11 +233,19 @@ The Array is "const month=[`jan`,`march`,`April`,`june0,``]"
 
 const month=[`jan`,`march`,`April`,`June`,`July`];
 console.log(month);  
-month.push(`dec`);//Add dec at the end of an array
-console.log(month);
-
-
+const addMonth =month.splice(5,0,`Dec`); //Add dec at the end of an array
+month.push(`dec`);
+console.log(month); 
 month[1]="March";  //update march to March (Update)
+console.log(month);
+const indexOfMonth =month.indexOf('march');
+if(indexOfMonth != -1)
+{
+        const updateMonth =month.splice(indexOfMonth,1,`March`);
+}else{
+        console.log('No Such data found....');
+}
 console.log(month);
 month.splice(3,1);  //Delete june fron array
 console.log(month);
+ 
