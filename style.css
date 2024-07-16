@@ -1,0 +1,21 @@
+.btn1, .btn2{
+
+}
+.btn1{
+  background-color: rgb(127, 232, 133);
+  color: rgb(0, 0, 0);
+  font-size: medium;
+  border:none;
+  border-radius: 25px;
+  padding: 5px 15px;
+  font-weight: bolder;
+}
+.btn2{
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  font-size: medium;
+  border:1px solid black;
+  border-radius: 20px;
+  padding: 5px 25px;
+
+}
