@@ -56,12 +56,59 @@
 // }
 
 // Question No.2's Solution
-let gender = "male";
-switch(gender){
-  case "male" :
-    console.log("you are male");
-    break;
-  case "female":
-    console.log("you are female");
-    break;
-}
+// let gender = "male";
+// switch(gender){
+//   case "male" :
+//     console.log("you are male");
+//     break;
+//   case "female":
+//     console.log("you are female");
+//     break;
+// }
+
+
+// Questions No.3's Solution 
+
+// let n = 90;
+// if(n % 2 == 0 && n % 3 == 0){
+// console.log("Your Number is divisible by 2 and 3");
+// }
+// else{
+//   console.log("Your Number is not divisible by 2 and 3");
+// }
+
+
+// practice set on topic of loop and function
+/* Questions
+1. Write a program to print the marks of a student in an object using for loop
+ obj = { harry: 18, rohan : 70, aakash: 7}
+2. write the program Q1 using for in loop
+3. Write the program to print "try again" until the user enter the correct number
+4. Write a function to find mean of 5 numbers */
+
+
+// Questions No.1's Solution
+//  let mark ={
+//   harry: 18,
+//   rohan : 70,
+//   aakash: 7
+//   }
+//   for(let i=0; i<Object.keys(mark).length; i++){
+//     console.log("The mark of " + Object.keys(mark)[i] + " are " + mark[Object.keys(mark)[i]]);
+//   }
+  
+  
+//   // Questions No.2's Solution
+//   for(let index in mark){
+//     console.log("The mark of " + index + " : " + mark[index]);
+//   }
+
+
+// Questions No.3's Solution
+
+// Questions No.4's Solutions
+// function MeanValue  ( a,b,c,d,e)  {
+//   return (a+b+c+d+e)/5;
+// }
+// let value= MeanValue(3,4,5,6,7);
+// console.log(value);
