@@ -31,3 +31,13 @@
 
 
 // Chapter-4 Expression and operator in javaScrip
+let a = 45;
+let b = 7;
+console.log("a*b = " + a*b);
+let check = (a>b) ? "true" : "false";
+console.log(check);
+
+
+// conditions
+let age = prompt("what is your age: ")
+console.log(typeof age);
