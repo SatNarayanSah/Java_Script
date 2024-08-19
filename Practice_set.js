@@ -112,3 +112,19 @@
 // }
 // let value= MeanValue(3,4,5,6,7);
 // console.log(value);
+
+
+
+
+// Practice set on topic of String
+/* Questions
+1. What will the following point in js console.log("har\*" .length)
+2. Explore the icludes, starts with & endwith function of a string
+3. write a program to cover a given string to loercase
+4. Extract the amount out of this string "Please give Rs. 1000"
+5. Try to change 4th character of a given string where you allow to do it.*/
+
+// Question 1's solution
+console.log("har\*".length); // 4
+// Question 2's solution
+console.log("har\*".includes("ar")); // true
